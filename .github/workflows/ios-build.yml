@@ -1,4 +1,4 @@
-name: iOS Build
+concurrency: name: iOS Build
 
 on:
   push:
@@ -11,14 +11,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Show Xcode version
         run: xcodebuild -version
 
       - name: Build iOS app
         run: |
-          xcodebuild             -project ZaynixFF.xcodeproj             -scheme ZaynixFF             -configuration Release             -sdk iphoneos             -destination 'generic/platform=iOS'             CODE_SIGNING_ALLOWED=NO             CODE_SIGNING_REQUIRED=NO             clean build
+          xcodebuild             -project ZaynixFF.xcodeproj             -scheme ZaynixFF             -configuration Release             -sdk iphoneos             -destination 'generic/platform=iOS'             -derivedDataPath build             CODE_SIGNING_ALLOWED=NO             CODE_SIGNING_REQUIRED=NO             clean build
 
       - name: Package unsigned app
         run: |
