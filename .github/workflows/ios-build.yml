@@ -1,4 +1,4 @@
-concurrency: name: iOS Build
+name: iOS Build
 
 on:
   push:
