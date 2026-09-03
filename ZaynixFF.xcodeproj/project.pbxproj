@@ -1,1 +1,193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+/* Begin PBXBuildFile section */
+		8AFCE021BF9143B78695CA60 /* CleanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F782CA5C32D2455FA377EF15 /* CleanView.swift */; };
+		ADDB3EE9F16E406D86C5841D /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7639AB83ADEE4DC9846FC84E /* Components.swift */; };
+		5291CBD3C6F745198949CA1B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B110EBADDF4B1CAFA0CE5B /* HomeView.swift */; };
+		3808443E23744F88ADE30245 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234157600B148E3B3E42304 /* LibraryView.swift */; };
+		7F2B9689514A4B718DB503E7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D80C1FCFD4DBF99F859D5 /* Models.swift */; };
+		EA6B16E5460E445DB094E4D8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D5643ED6F243BFA47A6567 /* RootView.swift */; };
+		3C7940797EF149F4A8393117 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB336D7E640F48A9B775C /* SettingsView.swift */; };
+		FCA75D6243E64A70AD95B814 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519C2281E1AD495A88B7C9B8 /* Theme.swift */; };
+		FD2D0B3824FA4EE6B6E11DCE /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A3421D4E54BCA9E755073 /* ToolsView.swift */; };
+		30F365D42DA742289AE52853 /* ZaynixFFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630B7D7A597C4196872E5A34 /* ZaynixFFApp.swift */; };
+/* End PBXBuildFile section */
 
+/* Begin PBXFileReference section */
+		F782CA5C32D2455FA377EF15 /* CleanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanView.swift; sourceTree = "<group>"; };
+		7639AB83ADEE4DC9846FC84E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		52B110EBADDF4B1CAFA0CE5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3234157600B148E3B3E42304 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		630D80C1FCFD4DBF99F859D5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		68D5643ED6F243BFA47A6567 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AD1AB336D7E640F48A9B775C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		519C2281E1AD495A88B7C9B8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		560A3421D4E54BCA9E755073 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		630B7D7A597C4196872E5A34 /* ZaynixFFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaynixFFApp.swift; sourceTree = "<group>"; };
+		0DA417AB467E47F592A43F5A /* ZaynixFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaynixFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5CED491A1C34AC59A671219 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5A7C741197442BA64D63C6 = {isa = PBXGroup; children = (96FB990523BF43A3967BE883, 2A03FA5BFB8B47F8B23B8522); sourceTree = "<group>"; };
+		96FB990523BF43A3967BE883 /* ZaynixFF */ = {isa = PBXGroup; children = (F782CA5C32D2455FA377EF15 /* CleanView.swift */, 7639AB83ADEE4DC9846FC84E /* Components.swift */, 52B110EBADDF4B1CAFA0CE5B /* HomeView.swift */, 3234157600B148E3B3E42304 /* LibraryView.swift */, 630D80C1FCFD4DBF99F859D5 /* Models.swift */, 68D5643ED6F243BFA47A6567 /* RootView.swift */, AD1AB336D7E640F48A9B775C /* SettingsView.swift */, 519C2281E1AD495A88B7C9B8 /* Theme.swift */, 560A3421D4E54BCA9E755073 /* ToolsView.swift */, 630B7D7A597C4196872E5A34 /* ZaynixFFApp.swift */); path = ZaynixFF; sourceTree = "<group>"; };
+		2A03FA5BFB8B47F8B23B8522 /* Products */ = {isa = PBXGroup; children = (0DA417AB467E47F592A43F5A /* ZaynixFF.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B98B274C8AD47E4936043B7 /* ZaynixFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038D2647C1C4C8097A2EE05 /* Build configuration list for PBXNativeTarget "ZaynixFF" */;
+			buildPhases = (
+				FEF34406CB1041E28D789E3F /* Sources */,
+				A5CED491A1C34AC59A671219 /* Frameworks */,
+				60E20C7E4E544615A18589E3 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ZaynixFF;
+			productName = ZaynixFF;
+			productReference = 0DA417AB467E47F592A43F5A /* ZaynixFF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F39866006E470B80AC38DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					2B98B274C8AD47E4936043B7 = { CreatedOnToolsVersion = 26.5; };
+				};
+			};
+			buildConfigurationList = D62C752672F54C13B4622B90 /* Build configuration list for PBXProject "ZaynixFF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 0F5A7C741197442BA64D63C6;
+			productRefGroup = 2A03FA5BFB8B47F8B23B8522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (2B98B274C8AD47E4936043B7 /* ZaynixFF */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E20C7E4E544615A18589E3 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF34406CB1041E28D789E3F /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				8AFCE021BF9143B78695CA60 /* CleanView.swift in Sources */,
+				ADDB3EE9F16E406D86C5841D /* Components.swift in Sources */,
+				5291CBD3C6F745198949CA1B /* HomeView.swift in Sources */,
+				3808443E23744F88ADE30245 /* LibraryView.swift in Sources */,
+				7F2B9689514A4B718DB503E7 /* Models.swift in Sources */,
+				EA6B16E5460E445DB094E4D8 /* RootView.swift in Sources */,
+				3C7940797EF149F4A8393117 /* SettingsView.swift in Sources */,
+				FCA75D6243E64A70AD95B814 /* Theme.swift in Sources */,
+				FD2D0B3824FA4EE6B6E11DCE /* ToolsView.swift in Sources */,
+				30F365D42DA742289AE52853 /* ZaynixFFApp.swift in Sources */
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		277671FF312843DF808C95E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "ZAYNIX FF";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.zaynix.ff;
+CURRENT_PROJECT_VERSION = 1;
+MARKETING_VERSION = 1.0.0;
+
+			};
+			name = Debug;
+		};
+		7DB07C92AA674694B7C39F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "ZAYNIX FF";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.zaynix.ff;
+CURRENT_PROJECT_VERSION = 1;
+MARKETING_VERSION = 1.0.0;
+
+			};
+			name = Release;
+		};
+		5F7AE8028D9F48ADBDF0FB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "ZAYNIX FF";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.zaynix.ff;
+CURRENT_PROJECT_VERSION = 1;
+MARKETING_VERSION = 1.0.0;
+
+			};
+			name = Debug;
+		};
+		E80B7DBD303C4D5EA0FABDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "ZAYNIX FF";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+PRODUCT_BUNDLE_IDENTIFIER = com.zaynix.ff;
+CURRENT_PROJECT_VERSION = 1;
+MARKETING_VERSION = 1.0.0;
+
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62C752672F54C13B4622B90 /* Build configuration list for PBXProject "ZaynixFF" */ = {isa = XCConfigurationList; buildConfigurations = (277671FF312843DF808C95E4 /* Debug */, 7DB07C92AA674694B7C39F69 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		1038D2647C1C4C8097A2EE05 /* Build configuration list for PBXNativeTarget "ZaynixFF" */ = {isa = XCConfigurationList; buildConfigurations = (5F7AE8028D9F48ADBDF0FB82 /* Debug */, E80B7DBD303C4D5EA0FABDEE /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F39866006E470B80AC38DE /* Project object */;
+}
