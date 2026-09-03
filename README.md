@@ -1,14 +1,21 @@
-# ZaynixFF
+# ZaynixFF — GitHub iOS Build
 
-SwiftUI iOS UI prototype.
+This repository contains a SwiftUI UI prototype for iOS 16+.
 
-- iOS 16+
-- SwiftUI
-- Bundle ID: com.zaynix.ff
-- Build workflow: GitHub Actions / macOS
+## Build from GitHub Actions
 
-## Build
+1. Upload the repository contents to GitHub.
+2. Open **Actions**.
+3. Select **iOS Build**.
+4. Choose **Run workflow**.
+5. After the run succeeds, download the artifact **ZaynixFF-iOS-build**.
 
-GitHub Actions runs the workflow in `.github/workflows/ios-build.yml`.
+The workflow performs an unsigned device build. An unsigned `.app` is a build artifact, not an installable signed IPA.
 
-The workflow creates an unsigned `.app` artifact. Apple signing is required for normal iOS installation/distribution.
+## Project identity
+
+- App name: ZAYNIX FF
+- Bundle ID: `com.zaynix.ff`
+- Deployment target: iOS 16.0+
+
+Do not replace the Bundle ID with another app's identifier.
