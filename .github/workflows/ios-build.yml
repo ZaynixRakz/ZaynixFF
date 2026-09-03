@@ -1,0 +1,47 @@
+name: iOS Build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Build iOS app
+        run: |
+          xcodebuild \
+            -project ZaynixFF.xcodeproj \
+            -scheme ZaynixFF \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            clean build
+
+      - name: Find app
+        run: |
+          find . -name "*.app" -type d
+
+      - name: Package app
+        run: |
+          mkdir -p output
+          cp -R build/Build/Products/Release-iphoneos/ZaynixFF.app output/ZaynixFF.app
+          cd output
+          zip -r ZaynixFF-unsigned.zip ZaynixFF.app
+
+      - name: Upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZaynixFF-iOS-build
+          path: output/ZaynixFF-unsigned.zip
